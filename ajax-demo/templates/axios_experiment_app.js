@@ -70,6 +70,6 @@ async function getLaunches() {
     }
 }
 
-const btn = document.querySelector("#getLaunches");
+const btn = document.querySelector("#launchBtn");
 btn.addEventListener("click", getLaunches);
 
